@@ -9,7 +9,7 @@ body {
 .q:nth-of-type(odd) {
 	background-color: #F5F5F5;
 }
-.pull-left {
+/* .pull-left {
 	margin: 0 20px 0 0;
 	width: 50px;
-}
+} */
