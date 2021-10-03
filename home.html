@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - DISC Test</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:400,700'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container"><div class="row">
+	<div class="page-header col-xs-12">
+    	<h1>DISC Persoonlijkheidstest</h1>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">1</span><br><br>
+                Enthousiast<br>
+                Moedig<br>
+                Gestructureerd<br>
+                Tevreden
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q1most" value="i-most"><br>
+                <input type="radio" name="q1most" value="d-most"><br>
+                <input type="radio" name="q1most" value="c-most"><br>
+                <input type="radio" name="q1most" value="s-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q1least" value="i-least"><br>
+                <input type="radio" name="q1least" value="d-least"><br>
+                <input type="radio" name="q1least" value="c-least"><br>
+                <input type="radio" name="q1least" value="s-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">2</span><br><br>
+                Voorzichtig<br>
+                Vastberaden<br>
+                Overtuigend<br>
+                Behulpzaam
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q2most" value="c-most"><br>
+                <input type="radio" name="q2most" value="d-most"><br>
+                <input type="radio" name="q2most" value="i-most"><br>
+                <input type="radio" name="q2most" value="s-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q2least" value="c-least"><br>
+                <input type="radio" name="q2least" value="d-least"><br>
+                <input type="radio" name="q2least" value="i-least"><br>
+                <input type="radio" name="q2least" value="s-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">3</span><br><br>
+                Vriendelijk<br>
+                Nauwkeurig<br>
+                Uitgesproken<br>
+                Kalm
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q3most" value="i-most"><br>
+                <input type="radio" name="q3most" value="c-most"><br>
+                <input type="radio" name="q3most" value="d-most"><br>
+                <input type="radio" name="q3most" value="s-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q3least" value="i-least"><br>
+                <input type="radio" name="q3least" value="c-least"><br>
+                <input type="radio" name="q3least" value="d-least"><br>
+                <input type="radio" name="q3least" value="s-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">4</span><br><br>
+                Spontaan<br>
+                Gecontroleerd<br>
+                Beleefd<br>
+                Besluitvaardig
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q4most" value="i-most"><br>
+                <input type="radio" name="q4most" value="c-most"><br>
+                <input type="radio" name="q4most" value="s-most"><br>
+                <input type="radio" name="q4most" value="d-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q4least" value="i-least"><br>
+                <input type="radio" name="q4least" value="c-least"><br>
+                <input type="radio" name="q4least" value="s-least"><br>
+                <input type="radio" name="q4least" value="d-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">5</span><br><br>
+                Avontuurlijk<br>
+                Verhelderend<br>
+                Extravert<br>
+                Bescheiden
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q5most" value="d-most"><br>
+                <input type="radio" name="q5most" value="c-most"><br>
+                <input type="radio" name="q5most" value="i-most"><br>
+                <input type="radio" name="q5most" value="s-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q5least" value="d-least"><br>
+                <input type="radio" name="q5least" value="c-least"><br>
+                <input type="radio" name="q5least" value="i-least"><br>
+                <input type="radio" name="q5least" value="s-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">6</span><br><br>
+                Zachtaardig<br>
+                Geloofwaardig<br>
+                Nederig<br>
+                Origineel
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q6most" value="s-most"><br>
+                <input type="radio" name="q6most" value="i-most"><br>
+                <input type="radio" name="q6most" value="c-most"><br>
+                <input type="radio" name="q6most" value="d-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q6least" value="s-least"><br>
+                <input type="radio" name="q6least" value="i-least"><br>
+                <input type="radio" name="q6least" value="c-least"><br>
+                <input type="radio" name="q6least" value="d-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">7</span><br><br>
+                Expressief<br>
+                Gedetailleerd<br>
+                Dominant<br>
+                Gevoelig
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q7most" value="i-most"><br>
+                <input type="radio" name="q7most" value="c-most"><br>
+                <input type="radio" name="q7most" value="d-most"><br>
+                <input type="radio" name="q7most" value="s-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q7least" value="i-least"><br>
+                <input type="radio" name="q7least" value="c-least"><br>
+                <input type="radio" name="q7least" value="d-least"><br>
+                <input type="radio" name="q7least" value="s-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">8</span><br><br>
+                Evenwichtig<br>
+                Observerend<br>
+                Ingetogen<br>
+                Ongeduldig
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q8most" value="i-most"><br>
+                <input type="radio" name="q8most" value="c-most"><br>
+                <input type="radio" name="q8most" value="s-most"><br>
+                <input type="radio" name="q8most" value="d-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q8least" value="i-least"><br>
+                <input type="radio" name="q8least" value="c-least"><br>
+                <input type="radio" name="q8least" value="s-least"><br>
+                <input type="radio" name="q8least" value="d-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">9</span><br><br>
+                Tactvol<br>
+                Aangenaam<br>
+                Aantrekkelijk<br>
+                Dringend
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q9most" value="c-most"><br>
+                <input type="radio" name="q9most" value="s-most"><br>
+                <input type="radio" name="q9most" value="i-most"><br>
+                <input type="radio" name="q9most" value="d-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q9least" value="c-least"><br>
+                <input type="radio" name="q9least" value="s-least"><br>
+                <input type="radio" name="q9least" value="i-least"><br>
+                <input type="radio" name="q9least" value="d-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">10</span><br><br>
+                Dapper<br>
+                Inspirerend<br>
+                Onderdanig<br>
+                Timide
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q10most" value="d-most"><br>
+                <input type="radio" name="q10most" value="i-most"><br>
+                <input type="radio" name="q10most" value="s-most"><br>
+                <input type="radio" name="q10most" value="c-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q10least" value="d-least"><br>
+                <input type="radio" name="q10least" value="i-least"><br>
+                <input type="radio" name="q10least" value="s-least"><br>
+                <input type="radio" name="q10least" value="c-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">11</span><br><br>
+                Gereserveerd<br>
+                Bereidwillig<br>
+                Wilskrachtig<br>
+                Vrolijk
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q11most" value="c-most"><br>
+                <input type="radio" name="q11most" value="s-most"><br>
+                <input type="radio" name="q11most" value="d-most"><br>
+                <input type="radio" name="q11most" value="i-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q11least" value="c-least"><br>
+                <input type="radio" name="q11least" value="s-least"><br>
+                <input type="radio" name="q11least" value="d-least"><br>
+                <input type="radio" name="q11least" value="i-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">12</span><br><br>
+                Stimulerend<br>
+                Lief<br>
+                Opmerkzaam<br>
+                Onafhankelijk
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q12most" value="i-most"><br>
+                <input type="radio" name="q12most" value="s-most"><br>
+                <input type="radio" name="q12most" value="c-most"><br>
+                <input type="radio" name="q12most" value="d-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q12least" value="i-least"><br>
+                <input type="radio" name="q12least" value="s-least"><br>
+                <input type="radio" name="q12least" value="c-least"><br>
+                <input type="radio" name="q12least" value="d-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">13</span><br><br>
+                Competatief<br>
+                Attent<br>
+                Vreugdevol<br>
+                Zorgzaam
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q13most" value="d-most"><br>
+                <input type="radio" name="q13most" value="s-most"><br>
+                <input type="radio" name="q13most" value="i-most"><br>
+                <input type="radio" name="q13most" value="c-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q13least" value="d-least"><br>
+                <input type="radio" name="q13least" value="s-least"><br>
+                <input type="radio" name="q13least" value="i-least"><br>
+                <input type="radio" name="q13least" value="c-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">14</span><br><br>
+                Kieskeurig<br>
+                Gehoorzaam<br>
+                Solide<br>
+                Speels
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q14most" value="c-most"><br>
+                <input type="radio" name="q14most" value="s-most"><br>
+                <input type="radio" name="q14most" value="d-most"><br>
+                <input type="radio" name="q14most" value="i-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q14least" value="c-least"><br>
+                <input type="radio" name="q14least" value="s-least"><br>
+                <input type="radio" name="q14least" value="d-least"><br>
+                <input type="radio" name="q14least" value="i-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">15</span><br><br>
+                Sympathiek<br>
+                Zelfbewust<br>
+                Koppig<br>
+                Voorspelbaar
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q15most" value="i-most"><br>
+                <input type="radio" name="q15most" value="c-most"><br>
+                <input type="radio" name="q15most" value="d-most"><br>
+                <input type="radio" name="q15most" value="s-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q15least" value="i-least"><br>
+                <input type="radio" name="q15least" value="c-least"><br>
+                <input type="radio" name="q15least" value="d-least"><br>
+                <input type="radio" name="q15least" value="s-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">16</span><br><br>
+                Logisch<br>
+                Lef<br>
+                Loyaal<br>
+                Charmant
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q16most" value="c-most"><br>
+                <input type="radio" name="q16most" value="d-most"><br>
+                <input type="radio" name="q16most" value="s-most"><br>
+                <input type="radio" name="q16most" value="i-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q16least" value="c-least"><br>
+                <input type="radio" name="q16least" value="d-least"><br>
+                <input type="radio" name="q16least" value="s-least"><br>
+                <input type="radio" name="q16least" value="i-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">17</span><br><br>
+                Sociaal<br>
+                Geduldig<br>
+                Zelfredzaam<br>
+                Mild
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q17most" value="i-most"><br>
+                <input type="radio" name="q17most" value="s-most"><br>
+                <input type="radio" name="q17most" value="d-most"><br>
+                <input type="radio" name="q17most" value="c-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q17least" value="i-least"><br>
+                <input type="radio" name="q17least" value="s-least"><br>
+                <input type="radio" name="q17least" value="d-least"><br>
+                <input type="radio" name="q17least" value="c-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">18</span><br><br>
+                Meegaand<br>
+                Gretig<br>
+                Grondig<br>
+                Positief
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q18most" value="s-most"><br>
+                <input type="radio" name="q18most" value="d-most"><br>
+                <input type="radio" name="q18most" value="c-most"><br>
+                <input type="radio" name="q18most" value="i-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q18least" value="s-least"><br>
+                <input type="radio" name="q18least" value="d-least"><br>
+                <input type="radio" name="q18least" value="c-least"><br>
+                <input type="radio" name="q18least" value="i-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">19</span><br><br>
+                Agressief<br>
+                Extravert<br>
+                Vriendschappelijk<br>
+                Angstig
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q19most" value="d-most"><br>
+                <input type="radio" name="q19most" value="i-most"><br>
+                <input type="radio" name="q19most" value="s-most"><br>
+                <input type="radio" name="q19most" value="c-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q19least" value="d-least"><br>
+                <input type="radio" name="q19least" value="i-least"><br>
+                <input type="radio" name="q19least" value="s-least"><br>
+                <input type="radio" name="q19least" value="c-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">20</span><br><br>
+                Zelfverzekerd<br>
+                Innemend<br>
+                Onpartijdig<br>
+                Assertief
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q20most" value="i-most"><br>
+                <input type="radio" name="q20most" value="s-most"><br>
+                <input type="radio" name="q20most" value="c-most"><br>
+                <input type="radio" name="q20most" value="d-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q20least" value="i-least"><br>
+                <input type="radio" name="q20least" value="s-least"><br>
+                <input type="radio" name="q20least" value="c-least"><br>
+                <input type="radio" name="q20least" value="d-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">21</span><br><br>
+                Gedisciplineerd<br>
+                Gul<br>
+                Levenslustig<br>
+                Doorzetter
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q21most" value="c-most"><br>
+                <input type="radio" name="q21most" value="s-most"><br>
+                <input type="radio" name="q21most" value="i-most"><br>
+                <input type="radio" name="q21most" value="d-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q21least" value="c-least"><br>
+                <input type="radio" name="q21least" value="s-least"><br>
+                <input type="radio" name="q21least" value="i-least"><br>
+                <input type="radio" name="q21least" value="d-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">22</span><br><br>
+                Impulsief<br>
+                Introvert<br>
+                Krachtig<br>
+                Relaxt
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q22most" value="i-most"><br>
+                <input type="radio" name="q22most" value="c-most"><br>
+                <input type="radio" name="q22most" value="d-most"><br>
+                <input type="radio" name="q22most" value="s-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q22least" value="i-least"><br>
+                <input type="radio" name="q22least" value="c-least"><br>
+                <input type="radio" name="q22least" value="d-least"><br>
+                <input type="radio" name="q22least" value="s-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">23</span><br><br>
+                Groepsmens<br>
+                Smaakvol<br>
+                Sterk<br>
+                Welwillend
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q23most" value="i-most"><br>
+                <input type="radio" name="q23most" value="c-most"><br>
+                <input type="radio" name="q23most" value="d-most"><br>
+                <input type="radio" name="q23most" value="s-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q23least" value="i-least"><br>
+                <input type="radio" name="q23least" value="c-least"><br>
+                <input type="radio" name="q23least" value="d-least"><br>
+                <input type="radio" name="q23least" value="s-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">24</span><br><br>
+                Fascinerend<br>
+                Voldaan<br>
+                Veeleisend<br>
+                Meewerkend
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q24most" value="i-most"><br>
+                <input type="radio" name="q24most" value="s-most"><br>
+                <input type="radio" name="q24most" value="d-most"><br>
+                <input type="radio" name="q24most" value="c-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q24least" value="i-least"><br>
+                <input type="radio" name="q24least" value="s-least"><br>
+                <input type="radio" name="q24least" value="d-least"><br>
+                <input type="radio" name="q24least" value="c-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">25</span><br><br>
+                Confronterend<br>
+                Systematisch<br>
+                Teamspeler<br>
+                Luchtig
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q25most" value="d-most"><br>
+                <input type="radio" name="q25most" value="c-most"><br>
+                <input type="radio" name="q25most" value="s-most"><br>
+                <input type="radio" name="q25most" value="i-imost">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q25least" value="d-least"><br>
+                <input type="radio" name="q25least" value="c-least"><br>
+                <input type="radio" name="q25least" value="s-least"><br>
+                <input type="radio" name="q25least" value="i-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">26</span><br><br>
+                Openhartig<br>
+                Precies<br>
+                Direct<br>
+                Stabiel
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q26most" value="i-most"><br>
+                <input type="radio" name="q26most" value="c-most"><br>
+                <input type="radio" name="q26most" value="d-most"><br>
+                <input type="radio" name="q26most" value="s-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q26least" value="i-least"><br>
+                <input type="radio" name="q26least" value="c-least"><br>
+                <input type="radio" name="q26least" value="d-least"><br>
+                <input type="radio" name="q26least" value="s-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">27</span><br><br>
+                Rusteloos<br>
+                Gezellig<br>
+                Boeiend<br>
+                Voorzichtig
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q27most" value="d-most"><br>
+                <input type="radio" name="q27most" value="s-most"><br>
+                <input type="radio" name="q27most" value="i-most"><br>
+                <input type="radio" name="q27most" value="c-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q27least" value="d-least"><br>
+                <input type="radio" name="q27least" value="s-least"><br>
+                <input type="radio" name="q27least" value="i-least"><br>
+                <input type="radio" name="q27least" value="c-least">
+            </div>
+        </div>
+    </div>
+	<div class="q col-xs-12 col-sm-6 col-lg-3">
+    	<div class="row">
+        	<div class="col-xs-6">
+            	<span class="badge">28</span><br><br>
+                Respectvol<br>
+                Ontdekkend<br>
+                Optimistisch<br>
+                Behulpzaam
+            </div>
+            <div class="col-xs-3 text-center">
+            	MEEST<br><br>
+                <input type="radio" name="q28most" value="c-most"><br>
+                <input type="radio" name="q28most" value="d-most"><br>
+                <input type="radio" name="q28most" value="i-most"><br>
+                <input type="radio" name="q28most" value="s-most">
+            </div>
+            <div class="col-xs-3 text-center">
+            	MINST<br><br>
+                <input type="radio" name="q28least" value="c-least"><br>
+                <input type="radio" name="q28least" value="d-least"><br>
+                <input type="radio" name="q28least" value="i-least"><br>
+                <input type="radio" name="q28least" value="s-least">
+            </div>
+        </div>
+    </div>
+    <div class="page-header col-xs-12">
+    	<br>
+        <p class="text-center"><button id="submit" class="btn btn-primary btn-lg">Resultaat</button></p>
+        <div class="col-xs-12" id="results">
+        	<div class="col-xs-2 text-center"><span class="badge badge-danger">Vurig rood</span></div>
+        	<div class="progress">
+	            <div id="d-chart" class="progress-bar progress-bar-danger" role="progressbar"></div>
+            </div>
+
+        	<div class="col-xs-2 text-center"><span class="badge">Stralend geel</span></div>
+            <div class="progress">
+            	<div id="i-chart" class="progress-bar progress-bar-warning" role="progressbar"></div>
+            </div>
+
+        	<div class="col-xs-2 text-center"><span class="badge">Zacht groen</span></div>
+            <div class="progress">
+            	<div id="s-chart" class="progress-bar progress-bar-success" role="progressbar"></div>
+            </div>
+            
+        	<div class="col-xs-2 text-center"><span class="badge badge-pill badge-primary">Helder blauw</span></div>
+            <div class="progress">
+            	<div id="c-chart" class="progress-bar progress-bar-info" role="progressbar"></div>
+            </div>
+        </div>
+    </div>
+</div></div>
+
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
